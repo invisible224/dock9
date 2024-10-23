@@ -16,3 +16,11 @@ docker run -it ubuntu:latest bash
 # 4. Verify the container:
 
 docker ps
+
+# 5. Another os
+
+docker pull centos:latest
+docker run -it centos:latest bash
+
+docker pull alpine:latest
+docker run -it alpine:latest sh
